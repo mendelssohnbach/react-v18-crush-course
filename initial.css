@@ -1,0 +1,26 @@
+@charset "utf-8";
+@import url('https://unpkg.com/modern-css-reset/dist/reset.min.css');
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDMincho&family=BIZ+UDPGothic:wght@700&family=Poppins:wght@200&display=swap');
+
+:root {
+  font-size: calc(1vw + 1vh + .5vmin);
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  /* display: inline-block; */
+  outline: 1px solid red;
+  font-family: 'Poppins', 'BIZ UDMincho', serif;
+  /* font-family: 'BIZ UDPGothic', sans-serif; */
+  font-feature-settings: "palt";
+}
+
